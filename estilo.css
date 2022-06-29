@@ -1,0 +1,190 @@
+
+
+.conteudoPrincipal {
+    max-width: 1200px ;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.644) ;
+}
+
+.primeiraSessao {
+    padding: 40px;
+    background-color: blueviolet;
+    width: 400px;
+    color: white;
+}
+
+.primeiroConteiner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: solid 1px white;
+}
+
+.conteinerImagem {
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+}
+
+.imagem {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.titulo__primeiroConteiner {
+    margin: 6% 0;
+    font-size: 1.6rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.span__primeiroConteiner {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 5%;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.subtitulo__primeiroConteiner {
+    font-size: .93em;
+    color: #fff;
+    margin-bottom: 5%;
+}
+
+.segundoConteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo__sengundoConteiner {
+    font-size: 17px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.listaSegundoConteiner{
+    list-style-type: none;
+}
+
+
+.tituloIcone{
+    display: inline-block;
+    font-size: 1em;
+    margin: 8% 0;
+}
+
+
+.material-icons {
+    color:#03a9f4;
+    font-size: inherit;
+    margin-right: 2px;
+}
+
+.listaTerceiroConteiner {
+    list-style: none;
+}
+
+.tituloMaior__ul {
+    color: #03a9f4;
+    font-size: 0.96rem;
+    margin: 5% 0;
+}
+
+.tituloMenor__ul {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.segundaSessao {
+    background-color: aliceblue;
+    padding: 40px;
+    width: 800px;
+}
+
+.conteinerSegundaSessao {
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloSegundaSessao {
+    font-size: 2rem;
+    color: purple;
+    margin-bottom: 3%;
+}
+
+.textoSegundaSessao {
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+.conteinerSegundaSessao {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.texto__conteinerSengundaSessao {
+    font-size: 1em;
+}
+
+.tituloMenor__segundaSessao {
+    font-size: 1em;
+}
+
+.tituloExperiencia {
+    margin-top: 5%;
+}
+
+.tituloHabilidade {
+    margin-top: 5%;
+}
+
+.SegundaLista__segundaSessao {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.SegundaLista__segundaSessao li {
+    margin:2% 3%;
+}
+
+@media (max-width: 768px) {
+
+    .corpoSite {
+        padding: 0px;
+        margin: 0px;
+        
+    }
+
+    .conteudoPrincipal {
+        flex-direction: column;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .primeiraSessao {
+        width: 80%;
+        padding: 10%;
+    }
+
+    .segundaSessao {
+        width: 80%;
+        padding: 10%;
+    }
+
+    .span__primeiroConteiner {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
